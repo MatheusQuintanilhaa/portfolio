@@ -1,9 +1,13 @@
+import UserSection from "./User/User";
+import AboutSection from "./About";
+import ProjectsSection from "./Projects";
+
 const PersonalInformations = () => {
   return (
     <div className="app">
-      <section className="card">user</section>
-      <section className="card">about</section>
-      <section className="card projects">projects</section>
+      <UserSection />
+      <AboutSection />
+      <ProjectsSection />
     </div>
   );
 };
