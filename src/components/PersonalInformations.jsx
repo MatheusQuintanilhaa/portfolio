@@ -1,6 +1,6 @@
 import UserSection from "./User/User";
-import AboutSection from "./About";
-import ProjectsSection from "./Projects";
+import AboutSection from "./About/About";
+import ProjectsSection from "./Projects/Projects";
 
 const PersonalInformations = () => {
   return (
