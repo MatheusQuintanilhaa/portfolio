@@ -45,10 +45,6 @@ body {
   margin: 160px auto 100px;
 }
 
-.projects {
-  grid-column: 1 / 3;
-}
-
 .card {
   border-radius: 12px;
   background: var(--background-card);
