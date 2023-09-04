@@ -28,3 +28,38 @@
   background: var(--link);
   transform: translateY(-12px);
 }
+
+/* Laptop (14 polegadas) */
+@media (max-width: 1080px) {
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+
+    margin-top: 12px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .social {
+    display: flex;
+    gap: 8px;
+  }
+
+  .social__link {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__link i {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 400px) {
+  .social {
+    flex-wrap: wrap;
+  }
+}

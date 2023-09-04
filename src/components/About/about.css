@@ -9,3 +9,14 @@
 
   margin-top: 12px;
 }
+
+/* Laptop (14 polegadas) */
+@media (max-width: 1080px) {
+  .about {
+    padding: 24px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+}
