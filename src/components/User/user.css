@@ -28,7 +28,7 @@
 .user__content {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-items: center;
   row-gap: 8px;
 }
 
