@@ -1,9 +1,9 @@
-import nike from "../../../src/assets/nikeWebsite.png";
-import dashdine from "../../../src/assets/dashdine.png";
-import joaolemon from "../../../src/assets/joaolemon.png";
-import metaverse from "../../../src/assets/metaverse.png";
-import flyAgency from "../../../src/assets/flyAgency.png";
-import bistroCafe from "../../../src/assets/bistroCafe.png";
+import nike from "./src/assets/nikeWebsite.png";
+import dashdine from "./src/assets/dashdine.png";
+import joaolemon from "./src/assets/joaolemon.png";
+import metaverse from "./src/assets/metaverse.png";
+import flyAgency from "./src/assets/flyAgency.png";
+import bistroCafe from "./src/assets/bistroCafe.png";
 
 const projetos = [
   {
