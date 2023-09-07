@@ -1,33 +1,18 @@
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import projetos from "../../../projects";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
+  const [projects] = useState(projetos || []);
 
-  useEffect(() => {
-    async function fetchProjects() {
-      try {
-        const response = await fetch("/projects.json");
-        if (!response.ok) {
-          throw new Error("Não foi possível buscar os projetos");
-        }
-        const data = await response.json();
-        setProjects(data);
-      } catch (error) {
-        console.log(error);
-      }
-    }
-    fetchProjects();
-  }, []);
-
-  const delay = 300; // Atraso em milissegundos entre cada projeto
+  const delay = 300;
 
   return (
     <section className="card projects">
       <h2 className="subtitle">Projetos</h2>
 
       <div className="projects__content">
-        {projects.map((project, index) => (
+        {projects?.map((project, index) => (
           <ProjectWithDelay
             key={project.id}
             project={project}
