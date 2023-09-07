@@ -1,6 +1,11 @@
 const About = () => {
   return (
-    <section className="card about">
+    <section
+      className="card about"
+      data-aos="fade-left"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+    >
       <h2 className="subtitle">Sobre</h2>
 
       <p>

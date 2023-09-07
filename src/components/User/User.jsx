@@ -1,8 +1,19 @@
 import { LinkedinLogo, GithubLogo, InstagramLogo } from "@phosphor-icons/react";
+import AOS from "aos"; // Importe o AOS
+import "aos/dist/aos.css"; // Importe o arquivo CSS do AOS
+import "../../../src/assets/profile.jpeg"; // Importe sua imagem de perfil
 
 const User = () => {
+  // Inicialize o AOS com as opções desejadas (por exemplo, fade-right, duração, easing)
+  AOS.init({ once: true });
+
   return (
-    <section className="card user">
+    <section
+      className="card user"
+      data-aos="fade-right"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+    >
       <picture>
         <img src="../../../src/assets/profile.jpeg" alt="profile picture" />
       </picture>
