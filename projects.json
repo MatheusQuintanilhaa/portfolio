@@ -1,13 +1,13 @@
 [
   {
     "name": "Nike Website",
-    "image": "../../../src/assets/nikeWebsite.png",
+    "image": "./assets/nikeWebsite.png",
     "tags": ["React JS", "Tailwind CSS", "Vite"],
     "link": "https://github.com/MatheusQuintanilhaa/Nike-Website"
   },
   {
     "name": "Dash Dine Delivery",
-    "image": "../../../src/assets/dashdine.png",
+    "image": "src/assets/dashdine.png",
     "tags": ["React JS", "Tailwind CSS", "Splide"],
     "link": "https://github.com/MatheusQuintanilhaa/Dash-Dine-App"
   },

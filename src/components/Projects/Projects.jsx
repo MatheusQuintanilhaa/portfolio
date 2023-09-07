@@ -104,3 +104,5 @@ ProjectWithDelay.propTypes = {
 };
 
 export default Projects;
+
+//mudando as rotas das imagens
