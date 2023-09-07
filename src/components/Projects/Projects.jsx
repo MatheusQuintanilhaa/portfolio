@@ -7,7 +7,7 @@ const Projects = () => {
   useEffect(() => {
     async function fetchProjects() {
       try {
-        const response = await fetch("./projects.json");
+        const response = await fetch("/projects.json");
         if (!response.ok) {
           throw new Error("Não foi possível buscar os projetos");
         }
@@ -104,5 +104,3 @@ ProjectWithDelay.propTypes = {
 };
 
 export default Projects;
-
-//mudando as rotas das imagens
